@@ -1,0 +1,27 @@
+EXECUTE
+    >> ./20181643.out
+
+COMPILE
+    >> make
+
+CLEAN THE INTERMEDIATE FILES
+    >> make clean
+
+COMMANDS
+    h[elp]
+    d[ir]
+    q[uit]
+    hi[story]
+    du[mp] [start, end]
+    e[dit] address, value
+    f[ill] start, end, value
+    reset
+    opcode mnemonic
+    opcodelist
+    assemble filename
+    type filename
+    symbol
+    progaddr address
+    loader obj1 [,obj2 ,obj3]
+    bp location
+    run
